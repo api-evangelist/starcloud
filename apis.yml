@@ -1,8 +1,28 @@
 aid: starcloud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/starcloud.png
 name: Starcloud
-description: 'Starcloud is a company surfaced as a portfolio company of benchmark and added to the API
-  Evangelist network as a stub for enrichment. Sector: artificial-intelligence. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Starcloud is developing orbital data centers that run AI and high-performance
+  compute in space. The company aims to deploy hyperscale, gigawatt-scale
+  infrastructure in orbit, using continuous solar energy without batteries and
+  radiative cooling into the vacuum to lower cost, scale beyond terrestrial
+  siting and permitting limits, and deploy rapidly. Backed by Nvidia, Sequoia,
+  Andreessen Horowitz, NFX and others, Starcloud is building a roadmap of
+  Starcloud-1 through Starcloud-4 satellite compute platforms. As of this
+  profile the company exposes no public API, SDK, developer portal, or technical
+  documentation surface; it is tracked in the API Evangelist network as a
+  space-compute infrastructure company and lead for future enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/starcloud/refs/heads/main/apis.yml
 x-type: company
 x-source: benchmark-portfolio
@@ -10,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
+- Data Centers
+- Cloud Computing
+- Infrastructure
+- Space
+- Compute
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/starcloud-domain-security.yml
 - type: Website
   url: https://www.starcloud.com
+- type: Blog
+  url: https://www.starcloud.com/blog
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
