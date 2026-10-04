@@ -45,7 +45,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Data-Center
+- Data Center
 - Cloud Computing
 - Infrastructure
 - Space
@@ -60,6 +60,7 @@ tags_raw:
 - Space
 - Compute
 - Sustainability
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
